@@ -5,7 +5,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite um número: ");
+            Console.Write("Digite um número: ");
             double numero = Convert.ToDouble(Console.ReadLine());
 
             if (numero % 2 == 0)
