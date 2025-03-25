@@ -8,7 +8,7 @@ internal class Program
         for (int i = 100; i <= 200; i++)
         {
             if (i % 2 != 0)
-               Console.WriteLine($"{i}");
+               Console.WriteLine(i);
         }
 
         Console.ReadLine();

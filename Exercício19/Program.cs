@@ -9,7 +9,7 @@
         {
             for (int i = 1; i <= 500; i++)
             {
-                if (i % 3 == 0)
+                if (i % 3 == 0 && i % 2 != 0)
                     Console.WriteLine(i);
             }
 

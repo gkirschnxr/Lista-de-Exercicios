@@ -20,7 +20,8 @@
 
             decimal resultado = (totalDeVendas * calculoComissao) + salarioBase;
 
-            Console.WriteLine("O salário total do vendedor será de: " + resultado.ToString("F2"));
+            // Console.WriteLine($"O salário total do vendedor será de: R$ {resultado:F2}");
+            Console.WriteLine("O salário total do vendedor será de: " + resultado.ToString("F2")); 
             Console.ReadLine();
         }
     }
